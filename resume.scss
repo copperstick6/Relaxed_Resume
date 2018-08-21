@@ -1,0 +1,54 @@
+@import 'https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.0/semantic.min.css';
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+@page {
+  -relaxed-page-width:  8.5in;
+  -relaxed-page-height: 11in;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+#header{
+	margin-top: .5cm;
+	font-weight: bold;
+}
+
+.headers{
+	padding-left:1.75cm;
+	margin-bottom: .25cm;
+}
+/* Start of Column CSS */
+.container2 {
+	clear:left;
+	float:left;
+	width:100%;
+	overflow:hidden;
+}
+.container1 {
+	float:left;
+	width:100%;
+	position:relative;
+	right:54.5%;
+	padding-bottom: .5cm;
+}
+.col1 {
+	float:left;
+	width:40%;
+	position:relative;
+	left:55%;
+	overflow:hidden;
+	text-align: center;
+}
+.col2 {
+	float:left;
+	position:relative;
+	left:50%;
+	overflow:hidden;
+}
+.education{
+	padding-left:1.75cm;
+	margin-bottom: .25cm;
+	padding-right:1.75cm;
+}
