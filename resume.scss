@@ -16,8 +16,12 @@ body {
 }
 
 .headers{
+	margin-top: .75cm;
 	padding-left:1.75cm;
-	margin-bottom: .25cm;
+	padding-right:1.75cm;
+	p{
+		font-weight: bold;
+	}
 }
 /* Start of Column CSS */
 .container2 {
@@ -25,30 +29,52 @@ body {
 	float:left;
 	width:100%;
 	overflow:hidden;
+
 }
 .container1 {
 	float:left;
 	width:100%;
 	position:relative;
 	right:54.5%;
-	padding-bottom: .5cm;
+	padding-bottom: .2cm;
 }
 .col1 {
 	float:left;
 	width:40%;
 	position:relative;
-	left:55%;
+	left:54%;
 	overflow:hidden;
 	text-align: center;
 }
 .col2 {
 	float:left;
 	position:relative;
-	left:50%;
+	left:48%;
 	overflow:hidden;
 }
 .education{
+	margin-top: .25cm;
 	padding-left:1.75cm;
 	margin-bottom: .25cm;
 	padding-right:1.75cm;
+	font-family: 'Roboto', sans-serif;
+	p{
+		margin-bottom: 0cm;
+	}
+}
+
+
+.eduCol1{
+	float:left;
+	position:relative;
+	left:62.5%;
+	overflow:hidden;
+	text-align: left;
+}
+
+.eduCol2{
+	float:left;
+	position:relative;
+	left:95%;
+	overflow:hidden;
 }
