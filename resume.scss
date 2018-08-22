@@ -21,6 +21,7 @@ body {
 	padding-right:1.75cm;
 	p{
 		font-weight: bold;
+		margin: 0
 	}
 }
 /* Start of Column CSS */
@@ -61,6 +62,9 @@ body {
 	p{
 		margin-bottom: 0cm;
 	}
+	h3{
+		margin: 0;
+	}
 }
 
 
@@ -77,4 +81,18 @@ body {
 	position:relative;
 	left:95%;
 	overflow:hidden;
+}
+
+.expCol1{
+	float:left;
+	position:relative;
+	left:62.5%;
+	overflow:hidden;
+	text-align: left;
+	p{
+		font-weight: bold;
+	}
+	h4{
+		margin: 0;
+	}
 }
